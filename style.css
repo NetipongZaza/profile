@@ -1,0 +1,42 @@
+body, h1, h2, h3, p, button {
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+}
+.head {
+    background-color: #333;
+    padding: 10px 0;
+    text-align: center;
+}
+.btn button {
+    background-color: greenyellow;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.btn button:hover {
+    background-color: green;
+}
+.text {
+    max-width: 650px;
+    margin: 0 auto;
+    position: relative;
+    padding: 0 20px
+}
+#pic {
+    width: 650px;
+    height: auto;
+    border-radius: 50px;
+    display: block;
+    margin: auto; /* Center the image horizontally */
+    margin-bottom: 20px;
+}
+
+.buttom {
+    max-width: 650px;
+    margin: 20px auto 0; /* Adjust the margin to create space between the image and the paragraph */
+    text-align: center; /* Center align the paragraph */
+}
